@@ -1,7 +1,7 @@
 #!/usr/bin/python
 
 
-amount = int(input("Amount of weight: "))
+amount = float(input("Amount of weight: "))
 unit = input("(K)g or (L)bs: ")
 
 if unit.upper() == "K":

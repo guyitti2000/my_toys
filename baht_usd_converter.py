@@ -5,7 +5,7 @@
 """
 My goal is to get from 5usd to 5*31.09
 """
-amount = int(input("Amount of money: "))
+amount = float(input("Amount of money: "))
 currency = input("(B)AHT or (U)SD: ")
 if currency.upper() == "B":
     converted = amount * 0.032

@@ -6,7 +6,7 @@ Formulas
 
 (0°C × 9/5) + 32 = 32°F
 """
-degrees = int(input("Degrees: "))
+degrees = float(input("Degrees: "))
 unit = input("(C)elsius or (F)ahrenheit: ")
 if unit.upper() == "C":
     converted = (degrees * (9/5) + 32)
