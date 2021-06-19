@@ -1,0 +1,4 @@
+
+Set theory and data structures: https://www.youtube.com/watch?v=q2beQrKjtzs&t=1863s
+
+Grokking Algorithms: https://www.amazon.com/Grokking-Algorithms-illustrated-programmers-curious/dp/1617292230/ref=sr_1_1?crid=3LWKPNFPXSXCV&dchild=1&keywords=grokking+algorithm&qid=1623976462&sprefix=grokking+%2Caps%2C535&sr=8-1
