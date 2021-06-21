@@ -11,7 +11,7 @@ amount = float(input("Amount of RMB: "))
 
 
 def convertandCompare(amount):
-    usd = amount * .16
+    usd = amount * (16/100)
     return usd
 print(convertandCompare(str(amount) + "rmb"))
 
