@@ -10,7 +10,7 @@ rmb3 = 35.60
 amount = float(input("Amount of RMB: "))
 
 def convertandCompare(amount):
-    usd = amount * .16
+    usd = amount * (16/100)
     return usd
 print("We have converted {}rmb".format(amount) +  " to " + str(convertandCompare(amount)))
 
