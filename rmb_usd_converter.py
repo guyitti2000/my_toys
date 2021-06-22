@@ -15,8 +15,9 @@ def convertandCompare(amount):
 print("We have converted {}rmb".format(amount) +  " to " + str(convertandCompare(amount)))
 
 
+
 '''
-print(convertandCompare(rmb1))
+print(str(convertandCompare(rmb1)))
 print(convertandCompare(rmb2))
 print(convertandCompare(rmb3))
 '''
