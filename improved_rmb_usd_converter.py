@@ -3,7 +3,8 @@
 def convertandCompare(amount):
     usd = amount * .16
     return usd
-
+import pdb
+pdb.set_trace()
 rmb = []
 while True:
     print("Enter your desired amount to be converted" + str(len(rmb) + 1) + 'or enter nothing to stop')
@@ -11,12 +12,11 @@ while True:
     if amount == '':
         break
     rmb += [amount]
-    #rmb = (list(map(float, rmb)))
-    #print(rmb)
-    #rmb = convertandCompare(rmb)
+    rmb = (list(map(float, rmb)))
+    rmb = convertandCompare(rmb)
 print('The conversion are:')
-for amount in rmb:
-    print(' ' + str(rmb))
+for amount in range(len(rmb)):
+    print(' ' + rmb[amount])
 
 #supposed to look something like that below
 '''

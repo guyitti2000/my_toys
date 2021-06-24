@@ -1,6 +1,5 @@
 #!/usr/bin/python
 
-
 '''
 rmb1 = 5000
 rmb2 = 75
